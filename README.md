@@ -7,6 +7,14 @@ A sophisticated question-answering system combining Retrieval-Augmented Generati
 - **Definitions** 📖
 - **Interactive Streamlit UI** 💻
 
+### Hosted Link
+
+🔗 [multiagentassistant.streamlit.app](https://multiagentassistant.streamlit.app/)
+
+### Viewing Logs
+
+To check logs, you need to run the project in the terminal. Steps are given below.
+
 ## Features ✨
 
 - **Multi-Agent Workflow**:
