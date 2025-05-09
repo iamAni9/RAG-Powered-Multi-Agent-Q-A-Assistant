@@ -1,6 +1,13 @@
 from dotenv import load_dotenv
 import os
 
+try:
+    import streamlit as st
+    for key, value in st.secrets.items():
+        os.environ[key] = str(value)
+except ImportError:
+    pass
+
 load_dotenv()
 
 class Config:
